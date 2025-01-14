@@ -1,14 +1,13 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
-from exercicio03 import Ui_MainWindow  # Importa a interface gerada
+from exercicio03 import Ui_MainWindow  
 
 class main_exerc03(QMainWindow):
     def __init__(self):
         super().__init__()
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
-        
-        # Conectar o botão à função que realiza o cálculo
+
         self.ui.pushButtonCalcular.clicked.connect(self.calcular_fatorial)
     
     def calcular_fatorial(self):

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1266</width>
+    <height>895</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="labelDescricao">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>30</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Digite números inteiros para verificar o maior:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNum1">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>80</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Primeiro número:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelResultado">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>730</y>
+      <width>691</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>O número maior é </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditNum1">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>80</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNum2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>140</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Segundo número:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditNum2">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>140</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonEnviar">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>680</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #eaedff;</string>
+    </property>
+    <property name="text">
+     <string>Verificar </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditNum4">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>260</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNum1_2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>200</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Terceiro número:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditNum3">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>200</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNum2_2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>260</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Quarto número:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditNum6">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>380</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNum1_5">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>320</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Quinto número:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditNum5">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>320</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNum2_5">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>380</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Sexto número:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditNum7">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>440</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNum2_6">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>500</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Oitavo número:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditNum8">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>500</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNum1_6">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>440</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Sétimo número:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNum2_7">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>620</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Décimo número:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditNum10">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>620</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNum1_7">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>560</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Nono número:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditNum9">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>560</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1266</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
