@@ -70,9 +70,9 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>940</x>
+      <x>1020</x>
       <y>750</y>
-      <width>461</width>
+      <width>381</width>
       <height>71</height>
      </rect>
     </property>
@@ -88,7 +88,7 @@ background-color: #22AB74;
 color: white;</string>
     </property>
     <property name="text">
-     <string>  Ir para cadastro de usuário </string>
+     <string>Cadastro de usuário </string>
     </property>
    </widget>
   </widget>
